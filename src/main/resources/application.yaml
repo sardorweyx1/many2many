@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: many2many
+  datasource:
+    username: postgres
+    password: admin
+    url: jdbc:postgresql://localhost:5432/many2many
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create
+server:
+  port: 8080
